@@ -20,6 +20,8 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <!-- Cambio del cesar para la pagina el coso del menu es este -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -62,14 +64,18 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-        
-          <li><a href="#clients">Clientes</a></li>
-          <li><a href="#portfolio">Proyectos</a></li>
+        <!-- 
+          Pasa que aqui movemos re hacemos y deshacemos este menu como dios lo da entender
+          Sientete libre de leerle que rollo a la pagina para cualquier datalle que quede pendiente
+         -->
           <li><a href="#about">Nosotros</a></li>
-          <!-- <li><a href="#about">Vision</a></li> -->
-          <!-- <li><a href="#services">Servicios</a></li>
-          <li><a href="#team">Equipo</a></li> -->
+          <li><a href="#portfolio">Proyectos</a></li>
+          <li><a href="#services">Servicios</a></li>
           <li><a href="#contact">Contacto</a></li>
+          <!-- <li><a href="#clients">Clientes</a></li> -->
+            <!-- <li><a href="#about">Vision</a></li> -->
+          <!-- 
+          <li><a href="#team">Equipo</a></li> -->
         </ul>
       </nav><!-- .main-nav -->
       
@@ -93,235 +99,8 @@
 
   <main id="main">
 
-    
     <!--==========================
-      Clients Section
-    ============================-->
-    <section id="clients" >
-
-        <div class="container">
-  
-          <div class="section-header">
-            <h3>Clientes</h3>
-            <p>Nuestros clientes ya son +Social.</p>
-          </div>
-  
-          <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-1.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-2.png" class="img-fluid" alt="">
-              </div>
-            </div>
-          
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-3.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-4.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-5.png" class="img-fluid" alt="">
-              </div>
-            </div>
-          
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-6.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-7.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/client-8.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-  
-      </section>
-
-      
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio" class="section-bg" >
-        <div class="container">
-  
-          <header class="section-header">
-            <h3 class="section-title">Proyectos</h3>
-            <p>Nuestros Proyectos son +Creativos.</p>
-          </header>
-  
-          <div class="row">
-            <div class="col-lg-12">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="row portfolio-container">
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">App 1</a></h4>
-                  <p>App</p>
-                  <div>
-                    <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Web 3</a></h4>
-                  <p>Web</p>
-                  <div>
-                    <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">App 2</a></h4>
-                  <p>App</p>
-                  <div>
-                    <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Card 2</a></h4>
-                  <p>Card</p>
-                  <div>
-                    <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Web 2</a></h4>
-                  <p>Web</p>
-                  <div>
-                    <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">App 3</a></h4>
-                  <p>App</p>
-                  <div>
-                    <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Card 1</a></h4>
-                  <p>Card</p>
-                  <div>
-                    <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Card 3</a></h4>
-                  <p>Card</p>
-                  <div>
-                    <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-              <div class="portfolio-wrap">
-                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="#">Web 1</a></h4>
-                  <p>Web</p>
-                  <div>
-                    <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section><!-- #portfolio -->
- 
-     <!-- Primeras dos partes de los consecuentes que me pudio cesar  -->
-
-    <!--==========================
-      Mision 
+      Mision  Nosotros 
     ============================-->
     <section id="about" class="clearfix">
       <div class="container">
@@ -334,10 +113,13 @@
             <img src="img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Nosotros Podemos</h4>
+            <!-- <h4> Titulo de area para antes de la descripcion </h4> -->
             <p>
-              Cumplir con todas las necesidades que pueda cubrir un departamento de publicidad
-              interno en cualquier tipo de empresa, siendo un servicio externo. 
+              Cada proyecto de Más Social representa grandes retos fuera de
+               nuestra zona de confort, los cuales hacen crecer nuestra
+                creatividad en pro de dar soluciones eficaces y concretas.
+                 Gracias a todo el equipo de la Agencia, presentamos algunos
+                  de los proyectos que respaldan nuestro trabajo.
             </p>
             <p>
               Siempre pensamos como un socio del negocio, trabajando en equipo buscamos lo
@@ -367,6 +149,46 @@ conocimientos con el fin de hacerlo crecer más, como lo haría un "socio public
     </section><!-- #about -->
 
    
+
+      
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="section-bg" >
+        <div class="container">
+  
+          <header class="section-header">
+            <h3 class="section-title">Proyectos</h3>
+            <p>Nuestros Proyectos son +Creativos.</p>
+          </header>
+  
+          <img src="img/be/1.png" alt="" class="img-fluid">
+          <img src="img/be/2.png" alt="" class="img-fluid">
+          <img src="img/be/3.png" alt="" class="img-fluid">
+          <img src="img/be/4.png" alt="" class="img-fluid">
+          <img src="img/be/5.png" alt="" class="img-fluid">
+          <img src="img/be/6.png" alt="" class="img-fluid">
+  
+        </div>
+      </section><!-- #portfolio -->
+ 
+     <!-- Primeras dos partes de los consecuentes que me pudio cesar  -->
+
+    
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" >
+
+      <div class="container">
+
+      
+        
+
+      </div>
+
+    </section>
+
   
 
     <!--==========================
@@ -384,31 +206,31 @@ conocimientos con el fin de hacerlo crecer más, como lo haría un "socio public
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <div class="icon"><i class="ion-android-chat" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">Publicidad en Redes</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Comunicar el mensaje de tu marca o negocio a través de las principales redes sociales.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
+              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #e9bf06;"></i></div>
               <h4 class="title"><a href="">Marketing</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <p class="description">Estudiamos la interacción física y digital de tu negocio con tu cliente y aplicamos estrategias y creatividad en esta relación.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <div class="icon"><i class="ion-camera" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="">Producción</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p class="description">Transmitimos tu idea a través de fotografía, medios audiovisuales e imagen corporativa.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <div class="icon"><i class="ion-android-image" style="color:#41cf2e;"></i></div>
               <h4 class="title"><a href="">Diseño</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p class="description">Creamos proyectos útiles y estéticos a través de imágenes.</p>
             </div>
           </div>
 
@@ -416,14 +238,14 @@ conocimientos con el fin de hacerlo crecer más, como lo haría un "socio public
             <div class="box">
               <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
               <h4 class="title"><a href="">Desarrollo Web</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">Desarrollamos sitios web con la experiencia e interacción del usuario en mente.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
+              <div class="icon"><i class="ion-android-apps" style="color: #4680ff;"></i></div>
               <h4 class="title"><a href="">Apps</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p class="description">Ideamos y construimos piezas de software listas para utilizar en dispositivos móviles.</p>
             </div>
           </div>
 
@@ -601,8 +423,8 @@ conocimientos con el fin de hacerlo crecer más, como lo haría un "socio public
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>NewBiz</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>Más Social</h3>
+            <p>Publicidad. Marketing. Producción. Diseño. Creatividad. Imprenta. Imagen Corporativa. Desarrollo Web. Aplicaciones.</p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
