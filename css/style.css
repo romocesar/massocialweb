@@ -40,8 +40,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
+  font-size: 172%;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -162,7 +163,7 @@ h6 {
   margin: 7px 0;
   max-height: 26px;
 }
- 
+
 .main-pages {
   margin-top: 60px;
 }
@@ -179,11 +180,11 @@ h6 {
   padding: 200px 0 120px 0;
   height: 100vh;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-/* 
+/*
 #intro .color-overlay {
   position: absolute;
   top: 0;
@@ -607,14 +608,22 @@ h6 {
 }
 
 #services .box {
+  /* yo */
+  width: auto;
+/* alto */
+  height: 180px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
   padding: 30px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1); */
+  /* transition: all 0.3s ease-in-out; */
 }
 
 #services .box:hover {
