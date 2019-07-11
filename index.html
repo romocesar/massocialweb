@@ -29,12 +29,12 @@
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
 
 <!-- cosas que yo meti para el banner css -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,13 +87,18 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
-      <div class="video-container">
-          <!-- <div class="color-overlay"></div> -->
-          <video autoplay loop muted>
-              <source src="video.mp4" type="video/mp4">
-          </video>
-      </div>
+  <section id="intro" >
+  
+          <!-- <iframe frameborder="0" height="100%" width="100%"
+          src="https://youtube.com/embed/zdcCcsWxwzs?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&version=3&loop=1&playlist=zdcCcsWxwzs">
+          </iframe> -->
+
+          <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+              <iframe frameborder="1" height="100%" width="100%"
+              src="https://www.youtube.com/embed/zdcCcsWxwzs?autoplay=1&controls=0&showinfo=0&autohide=1&fs=0&rel=0&loop=1&version=3&loop=1&playlist=zdcCcsWxwzs">
+              </iframe>
+              </div>
+
 
 
       <!-- <iframe src="https://player.vimeo.com/video/314020763" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
@@ -199,8 +204,8 @@
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-analytics-outline" style="color: #000;"></i></div>
-              <h4 class="title"><a href="">Marketing</a></h4>
-              <p class="description">Estudiamos la interacción física y digital de tu negocio con tu cliente y aplicamos estrategias y creatividad en esta relación.</p>
+              <h4 class="title"><a href="">Difusión Digital</a></h4>
+              <p class="description">lorem ipsum dolor calamidad lorem basid calamedseanikps</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
@@ -332,8 +337,10 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact">
-      <div class="container-fluid">
+  
+    <section id="contact" class="clearfix">
+
+      <div class="container">
 
         <div class="section-header">
           <h3>Nosotros te escuchamos</h3>
@@ -343,7 +350,7 @@
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223154.48942312447!2d-111.12907424576552!3d29.08238246586719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce84687adfaee5%3A0xb33d5395e9887ff9!2sHermosillo%2C+Son.!5e0!3m2!1ses!2smx!4v1562800492148!5m2!1ses!2smx"  frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -397,8 +404,6 @@
     Footer
   ============================-->
   <footer id="footer">
-   
-
     <div class="container">
       <div class="copyright">
          <strong>Agencia Más Social</strong>. All Rights Reserved
@@ -436,6 +441,7 @@
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
